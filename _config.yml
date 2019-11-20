@@ -1,0 +1,35 @@
+title: Your Research Project Title
+description: > # this means to ignore newlines until "baseurl:"
+  This website is an online repository for your manuscript. You should include a
+  concise (1-sentence) summary of your project here. This can be as simple as
+  the title of the paper.  
+
+permalink: ':title/'
+baseurl:  "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# You can include social icons
+site-twitter: #if your site has a twitter account, enter it here
+social-github: RPGroup-PBoC # add your Github handle here.
+
+# You can include a logo for your work as a .png that is saved in the folder 
+# 'assets/img/'. If you want a logo to show up, put the filename of the logo here
+author-img: logo.png # Comment this line out if you don't want a logo
+
+
+# If you are using google analytics to track website traffic, you can insert the
+# tracking key below. It will be automatically inserted into the header of every
+# website page
+analytics: 
+
+# Build settings for the website. Do not modify this unless you know what you
+# are doing.
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+# Files to exclude from the website build. You may not want to include all data
+# files for example.
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "data_files"]

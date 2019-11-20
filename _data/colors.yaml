@@ -1,0 +1,4 @@
+# This data file contails color information that sets the theme of the website. 
+dark: "#222222" # This should be provided as a hexadecimal colde
+secondary_color: "#"
+tertiary_color: "#"

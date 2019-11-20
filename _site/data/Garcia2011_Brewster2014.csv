@@ -1,0 +1,93 @@
+# ##############################################################################
+# ORIGIN:
+#   Hernan G. Garcia and Rob Phillips. "Quantitative dissection of the simple
+#       repression input-output function." *PNAS* 2011. **108**(29). 
+#       DOI: 10.1073/pnas.1015616108
+# 
+#   Robert C. Brewster, Franz M. weinert, Hernan G. Garcia, Dan Song, Mattias
+#       Rydenfelt, and Rob Phillips. "The Transcription Factor titration Effect 
+#       Dictates Level of Gene Expression." *Cell* (2014). **156**(6). DOI: 
+#       10.1016/j.cell.2014.02.022
+# 
+# NOTES: 
+#   This data set has the single site repression data from Fig. 3 of Brewster
+#   et al. 2014 for all operators and data from Garcia and Phillips, 2011. For
+#   data from Garcia and Phillips, the number of repressors has been multiplied
+#   by two to account for the fact that there are two DNA binding heads of the
+#   LacI tetramer. Error bars were not available from the provided data and have
+#   been omitted.
+#
+# COLUMN DESCRIPTIONS:
+#   repressor: Mean number of repressors per cell
+#   fold_change: Mean fold-change in gene expression
+#   author: Identifier of publication source
+#   operator: Identifier of the operator sequence
+#   energy: Wild-type repressor DNA binding energy to the operator in kBT.
+# ##############################################################################
+repressor,fold_change,author,operator,energy
+22.42,0.7985,garcia,O3,-9.7
+59.34,0.6524,garcia,O3,-9.7
+124,0.621,garcia,O3,-9.7
+255.3,0.4773,garcia,O3,-9.7
+1213,0.2494,garcia,O3,-9.7
+1735,0.1743,garcia,O3,-9.7
+22.42,0.1756,garcia,O2,-13.9
+59.34,0.04519,garcia,O2,-13.9
+124,0.02151,garcia,O2,-13.9
+255.3,0.01241,garcia,O2,-13.9
+1213,0.0057,garcia,O2,-13.9
+1735,0.004626,garcia,O2,-13.9
+22.42,0.03886,garcia,O1,-15.3
+59.34,0.008902,garcia,O1,-15.3
+124,0.004721,garcia,O1,-15.3
+225.3,0.002774,garcia,O1,-15.3
+1213,0.001508,garcia,O1,-15.3
+1735,0.0011,garcia,O1,-15.3
+22.42,0.007554,garcia,Oid,-17
+59.34,0.00162,garcia,Oid,-17
+124,0.001004,garcia,Oid,-17
+255.3,0.0006235,garcia,Oid,-17
+1213,0.0002914,garcia,Oid,-17
+1735,0.0001799,garcia,Oid,-17
+2.436,1.039,brewster,O3,-9.7
+3.692,1.168,brewster,O3,-9.7
+4.947,1.108,brewster,O3,-9.7
+6.68,1.355,brewster,O3,-9.7
+17.21,1.309,brewster,O3,-9.7
+72.31,1.123,brewster,O3,-9.7
+97.59,0.9714,brewster,O3,-9.7
+134.6,0.8791,brewster,O3,-9.7
+224.5,0.7964,brewster,O3,-9.7
+311.5,0.7508,brewster,O3,-9.7
+356.9,0.7342,brewster,O3,-9.7
+408.5,0.6977,brewster,O3,-9.7
+443.1,0.6235,brewster,O3,-9.7
+526.7,0.7654,brewster,O3,-9.7
+681.8,0.7202,brewster,O3,-9.7
+4.468,0.4378,brewster,O2,-13.9
+9.161,0.3282,brewster,O2,-13.9
+13.24,0.281,brewster,O2,-13.9
+20.54,0.2394,brewster,O2,-13.9
+32.82,0.1234,brewster,O2,-13.9
+49.31,0.09993,brewster,O2,-13.9
+71.11,0.08253,brewster,O2,-13.9
+96.98,0.0533,brewster,O2,-13.9
+156.5,0.04818,brewster,O2,-13.9
+221.3,0.02397,brewster,O2,-13.9
+293.9,0.01562,brewster,O2,-13.9
+358,0.01876,brewster,O2,-13.9
+444.6,0.01036,brewster,O2,-13.9
+3.416,0.1989,brewster,O1,-15.3
+7.617,0.1427,brewster,O1,-15.3
+30.23,0.0644,brewster,O1,-15.3
+68.84,0.02804,brewster,O1,-15.3
+101.8,0.01095,brewster,O1,-15.3
+151.8,0.009284,brewster,O1,-15.3
+210.1,0.006787,brewster,O1,-15.3
+293,0.003126,brewster,O1,-15.3
+366,0.003147,brewster,O1,-15.3
+538.3,0.002153,brewster,O1,-15.3
+3.006,0.08223,brewster,Oid,-17
+5.953,0.04416,brewster,Oid,-17
+10.98,0.01884,brewster,Oid,-17
+24.64,0.01001,brewster,Oid,-17

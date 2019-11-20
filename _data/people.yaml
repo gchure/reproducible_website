@@ -1,0 +1,22 @@
+# This YAML data file contains information for each author of the work. You can
+# add additional fields to each person, but they must then be included in the
+# `people.md` file.
+
+- author:
+  name: Dr. Osophila
+  link: "https://en.wikipedia.org/wiki/Drosophila"
+  title: Postdoctoral Scholar
+  img: dr_osophila.png
+  institute: Bicoid Institute of Development
+
+- author:
+  name: Dr. Melanie O'Gaster
+  link: "https://en.wikipedia.org/wiki/Drosophila_melanogaster"
+  title: Postdoctoral Scholar
+  img: melanogaster.png
+  institute: French Flag Research Institute
+
+- author:
+  name: Sally Monella
+  title: Research Technician
+  institute: French Flag Research Institute
