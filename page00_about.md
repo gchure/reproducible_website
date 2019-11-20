@@ -10,7 +10,7 @@ sidebar: true
 ---
 
 
-# A Template For Reproducible Research Website
+# A Template For A Reproducible Research Website
 This is a general purpose website template for conveying your data, code, and
 overall scientific story to the general public! See the
 [GitHub](https://github.com/gchure/reproducible_website) for the actual code
