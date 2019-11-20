@@ -32,7 +32,7 @@
   
   
   
-    <meta content="http://localhost:4000/assets/img/code.png" property="og:image">
+    <meta content="http://localhost:4000/reproducible_website/assets/img/code.png" property="og:image">
   
   
   
@@ -51,17 +51,17 @@
 ">
   
   
-    <meta name="twitter:image:src" content="http://localhost:4000/assets/img/code.png">
+    <meta name="twitter:image:src" content="http://localhost:4000/reproducible_website/assets/img/code.png">
   
 
 	<meta name="description" content="">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta property="og:image" content="">
-	<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-touch-icon-144x144.png">
+	<link rel="shortcut icon" href="/reproducible_website/assets/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/reproducible_website/assets/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/reproducible_website/assets/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/reproducible_website/assets/img/favicon/apple-touch-icon-144x144.png">
 	<!-- Chrome, Firefox OS and Opera -->
 	<meta name="theme-color" content="#263959">
 	<!-- Windows Phone -->
@@ -72,9 +72,9 @@
 	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 	<!-- Font Awesome -->
-	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/reproducible_website/assets/fonts/font-awesome/css/font-awesome.min.css">
 	<!-- Styles -->
-	<link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="stylesheet" href="/reproducible_website/assets/css/main.css">
 </head>
 
 <body>
@@ -84,7 +84,7 @@
   <header>
     <div class="about">
       <div class="cover-author-image">
-        <a href="/"><img src="/assets/img/logo.png" alt=""></a>
+        <a href="/reproducible_website/"><img src="/reproducible_website/assets/img/logo.png" alt=""></a>
       </div>
       <div class="author-name"></div>
       <div class="sidebar-links">
@@ -92,19 +92,19 @@
       
       
       
-       <p><a href="/index.html">About</a></p>
+       <p><a href="http://localhost:4000/reproducible_website/index.html">About</a></p>
       <hr>
       
       
-       <p><a href="/people">People</a></p>
+       <p><a href="http://localhost:4000/reproducible_website/people">People</a></p>
       <hr>
       
       
-       <p><a href="/code">Code and Data</a></p>
+       <p><a href="http://localhost:4000/reproducible_website/code">Code and Data</a></p>
       <hr>
       
       
-       <p><a href="/interactive_a">Interactive Figure 1</a></p>
+       <p><a href="http://localhost:4000/reproducible_website/interactive_a">Interactive Figure 1</a></p>
       <hr>
       
       
@@ -116,41 +116,31 @@
     </div>
   </header> <!-- End Header -->
 
-  <!-- <footer>
+  <footer>
     <section class="contact">
-      <h3 class="contact-title">Contact me</h3>
+      <h3 class="contact-title">Contact</h3>
       <ul>
-        
-          <li><a href="https://twitter.com/artemsheludko_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        
-        
-          <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
         
         
           <li class="github"><a href="http://github.com/RPGroup-PBoC" target="_blank"><i class="fa fa-github"></i></a></li>
         
         
-          <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-        
-        
-          <li class="email"><a href="mailto:example.david@blog.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-        
-      </ul> -->
-    </section> <!-- End Section Contact -->
+      </ul> 
+    </section> 
     <div class="copyright">
-      <!-- <p>2019 &copy; </p> -->
+      <p>2019 &copy; 
     </div>
     <center>
     </center>
-  </footer> <!-- End Footer -->
-</aside> <!-- End Sidebar -->
+  </footer> 
+</aside> 
 <div class="content-box clearfix">
   <article class="article-page">
   <div class="page-content">
     
     <div class="page-cover-image">
       <figure>
-        <img class="page-image" src=/assets/img/code.png alt="Code and Data">
+        <img class="page-image" src=/reproducible_website/assets/img/code.png alt="Code and Data">
         
       </figure>
     </div> <!-- End Page Cover Image -->
@@ -161,20 +151,14 @@
       </header>
       <hr />
 
-<h2 id="executing-the-code">Executing The Code</h2>
-<p>This page should provide information of the computational environment used in
-your work along with links to all of the code</p>
+<h2 id="description">Description</h2>
+<p>This page should provide information of the computational environment used in your work along with links to all of the code. Anything you want to describe about the software, execution, etc. should go here.</p>
 
 <h2 id="computational-environment">Computational Environment</h2>
-<p>All analysis and data processing was performed with the following software
-configurations.</p>
-
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Python Version
 CPython 3.6.7
 IPython 7.1.1
-
-# Package Versions
-bokeh==1.0.4
+# Package Versions bokeh==1.0.4
 fcsparser==0.2.0
 numpy==1.14.2
 matplotlib==3.0.1
@@ -194,67 +178,58 @@ machine    : x86_64
 processor  : i386
 CPU cores  : 4
 interpreter: 64bit
+
 </code></pre></div></div>
 
-<h2 id="description-of-specific-software-module">Description of specific software module</h2>
-<p>Pug gluten-free quinoa crucifix, you probably haven’t heard of them activated
-charcoal meditation viral kinfolk. Schlitz mlkshk gochujang four loko
-drinking vinegar farm-to-table. Edison bulb tumblr venmo post-ironic, raw
-denim retro cred. Tattooed literally copper mug ethical enamel pin vinyl.
-Trust fund pickled skateboard, organic poutine copper mug gentrify keytar
-authentic cloud bread 8-bit. Stumptown ugh bicycle rights, cliche cronut
-freegan dreamcatcher keffiyeh drinking vinegar single-origin coffee bushwick.</p>
-
 <h2 id="figure-generation">Figure Generation</h2>
-<p>This section should link to all code/data used in the main text figures.</p>
 
 <article class="post">
 
-<a class="post-thumbnail" style="background-image: url(/assets/img/fig1.png)" href="/figures/"> </a>
+<a class="post-thumbnail" style="background-image: url(/reproducible_website/assets/img/fig1.png)" href="/reproducible_website/figures/"> </a>
 
 <div class="post-content">
-<b class="post-title"><a href="/code/fig1.py">Fig. 1: Paleo cardigan kombucha, pickled brunch shabby chic </a></b>
+<b class="post-title"><a href="/reproducible_website/code/fig1.py">Fig. 1: Paleo cardigan kombucha, pickled brunch shabby chic </a></b>
 <p> Used to generate the figure1</p>
 
 <i>Necessary Data Sets </i><br />
 
-<a style="font-size: 0.9em;" href="/data/ds1.csv"> - Dataset 1 </a><br />
+<a style="font-size: 0.9em;" href="/reproducible_website/data/ds1.csv"> - Dataset 1 </a><br />
 
 </div>
 </article>
 
 <article class="post">
 
-<a class="post-thumbnail" style="background-image: url(/assets/img/fig2.png)" href="/figures/"> </a>
+<a class="post-thumbnail" style="background-image: url(/reproducible_website/assets/img/fig2.png)" href="/reproducible_website/figures/"> </a>
 
 <div class="post-content">
-<b class="post-title"><a href="/code/fig2.py">Fig. 2: Activated charcoal tilde kombucha. </a></b>
+<b class="post-title"><a href="/reproducible_website/code/fig2.py">Fig. 2: Activated charcoal tilde kombucha. </a></b>
 <p> Used to generate Figure 2, illustrating activated kombucha on tap.</p>
 
 <i>Necessary Data Sets </i><br />
 
-<a style="font-size: 0.9em;" href="/data/ds2.csv"> - Kombucha tempura desconstructed measures </a><br />
+<a style="font-size: 0.9em;" href="/reproducible_website/data/ds2.csv"> - Kombucha tempura desconstructed measures </a><br />
 
-<a style="font-size: 0.9em;" href="/data/ds2.csv"> - Gravitational wave lo-fi beats to chill and study to </a><br />
+<a style="font-size: 0.9em;" href="/reproducible_website/data/ds2.csv"> - Gravitational wave lo-fi beats to chill and study to </a><br />
 
 </div>
 </article>
 
 <article class="post">
 
-<a class="post-thumbnail" style="background-image: url(/assets/img/fig3.png)" href="/figures/"> </a>
+<a class="post-thumbnail" style="background-image: url(/reproducible_website/assets/img/fig3.png)" href="/reproducible_website/figures/"> </a>
 
 <div class="post-content">
-<b class="post-title"><a href="/code/fig5.py">Fig. 5: Sustainable pour-over VHS</a></b>
+<b class="post-title"><a href="/reproducible_website/code/fig5.py">Fig. 5: Sustainable pour-over VHS</a></b>
 <p> Used to generate Figure 5,</p>
 
 <i>Necessary Data Sets </i><br />
 
-<a style="font-size: 0.9em;" href="/data/ds1.csv"> - Summarized dataset 1 </a><br />
+<a style="font-size: 0.9em;" href="/reproducible_website/data/ds1.csv"> - Summarized dataset 1 </a><br />
 
-<a style="font-size: 0.9em;" href="/data/ds2.csv"> - Summarized dataset 2 </a><br />
+<a style="font-size: 0.9em;" href="/reproducible_website/data/ds2.csv"> - Summarized dataset 2 </a><br />
 
-<a style="font-size: 0.9em;" href="/data/ds3.csv"> - Summarized dataset 3 </a><br />
+<a style="font-size: 0.9em;" href="/reproducible_website/data/ds3.csv"> - Summarized dataset 3 </a><br />
 
 </div>
 </article>
