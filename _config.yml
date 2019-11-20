@@ -11,16 +11,17 @@ url: "https://gchure.github.io" # the base hostname & protocol for your site, e.
 # You can include social icons
 site-twitter: #if your site has a twitter account, enter it here
 social-github: RPGroup-PBoC # add your Github handle here.
+email: username@hostname.com
+
+# If you are using google analytics to track website traffic, you can insert the
+# tracking key below. It will be automatically inserted into the header of every
+# website page
+analytics:
 
 # You can include a logo for your work as a .png that is saved in the folder 
 # 'assets/img/'. If you want a logo to show up, put the filename of the logo here
 author-img: logo.png # Comment this line out if you don't want a logo
 
-
-# If you are using google analytics to track website traffic, you can insert the
-# tracking key below. It will be automatically inserted into the header of every
-# website page
-analytics: 
 
 # Build settings for the website. Do not modify this unless you know what you
 # are doing.

@@ -14,11 +14,12 @@ sidebar: true
 # {{site.data.about.title}}
 {{site.data.about.authors}}
 
-## Abstract
-{{site.data.about.abstract}}
+{% for entry in site.data.about %}
 
-##  Summary 
-{{site.data.about.summary}}
-
-## Acknowledgments
-{{site.data.about.summary}}
+{% if entry[0] != 'title' %}
+{% if entry[0] != 'authors' %}
+## {{entry[0]}}
+{{entry[1]}}
+{% endif %}
+{% endif %}
+{% endfor %}

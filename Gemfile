@@ -4,5 +4,4 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-paginate"
   gem "jemoji"
-  gem "nokogiri", ">= 1.10.4"
 end

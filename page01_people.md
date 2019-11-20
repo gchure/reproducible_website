@@ -53,6 +53,9 @@ you're doing, or it will break the display of the authors.
 {% if author.institute %}
 <p>{{author.institute}}</p>
 {% endif %}
+{% for other in author.other_info %}
+<p>{{other[0]}}: {{other[1]}}</p>
+{% endfor %}
 </div>
 </article>
 {%endfor%}

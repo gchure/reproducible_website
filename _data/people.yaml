@@ -14,13 +14,16 @@
   title: Postdoctoral Scholar
   img: dr_osophila.jpg
   institute: Bicoid Institute of Development
-
+  other_info:
+     Email Address: "flyguy@university.edu"
 - author:
   name: Dr. Melanie O'Gaster
   link: "https://en.wikipedia.org/wiki/Drosophila_melanogaster"
   title: Postdoctoral Scholar
   img: melanogaster.jpg
   institute: French Flag Research Institute
+  other_info:
+    Current Location: Apple Juice Plates, Inc
 
 - author:
   name: Sally Monella

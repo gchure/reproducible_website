@@ -4,9 +4,6 @@
 <loc>http://localhost:4000/reproducible_website/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/reproducible_website/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/reproducible_website/people</loc>
 </url>
 <url>
@@ -14,14 +11,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/reproducible_website/interactive_a</loc>
-</url>
-<url>
-<loc>http://localhost:4000/reproducible_website/figures/data_collapse.html</loc>
-<lastmod>2019-11-19T13:29:49-08:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/reproducible_website/figures/model_explorer.html</loc>
-<lastmod>2019-11-19T13:29:49-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/reproducible_website/interactives/interactive_1.html</loc>
