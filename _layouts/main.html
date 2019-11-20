@@ -12,7 +12,7 @@ layout: default
       <div class="sidebar-links">
       <hr>
       {% for page in site.pages %}
-      {% if page.sidebar %} <p><a href="{{site.url}}/{{site.baseurl}}/{{page.permalink}}">{{page.title}}</a></p>
+      {% if page.sidebar %} <p><a href="{{site.url}}{{site.baseurl}}/{{page.permalink}}">{{page.title}}</a></p>
       <hr>
       {%endif%}
       {% endfor %}
