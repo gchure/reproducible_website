@@ -15,7 +15,7 @@ modifications to the structure to be amenable for scientific publications.
 
 ## How Do I Use This?
 Full documentation of how to use this repository as either a standalone website
-or as a branch in another repository can be found on the [GitHub Wiki page]()
+or as a branch in another repository can be found on the [GitHub Wiki page](https://github.com/gchure/reproducible_website/wiki)
 for this repository. 
 
 ## Software requirements 
