@@ -157,88 +157,92 @@
       </header>
       <hr />
 
-<h2 id="description">Description</h2>
-<p>This page should provide information of the computational environment used in your work along with links to all of the code. Anything you want to describe about the software, execution, etc. should go here.</p>
+<h2 id="code">Code</h2>
 
-<h2 id="computational-environment">Computational Environment</h2>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Python Version
-CPython 3.6.7
-IPython 7.1.1
-# Package Versions bokeh==1.0.4
-fcsparser==0.2.0
-numpy==1.14.2
-matplotlib==3.0.1
-scipy==1.1.0
-seaborn==0.9.0
-pandas==0.23.4
-tqdm==4.28.1
-pystan==2.18.0.0
-python_frontmatter==0.4.5
-PyYAML==5.1
+<ul>
+  <li>
+    <p><a href="http://localhost:4000//reproducible_website/software/script1.py"><strong>script1.py</strong></a>
+| Super fancy script which calcualate some complicated stuff with well-documented code.</p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000//reproducible_website/software/script2.py"><strong>script2.py</strong></a>
+| Yet another script that does something-or-other.</p>
+  </li>
+</ul>
 
-# System Information
-compiler   : GCC 4.2.1 Compatible Clng 4.0.1 (tagss/RELEASE_401/final)
-system     : Darwin
-release    : 18.2.0
-machine    : x86_64
-processor  : i386
-CPU cores  : 4
-interpreter: 64bit
+<h2 id="data-sets">Data Sets</h2>
 
-</code></pre></div></div>
+<ul>
+  <li>
+    <p><a href="http://localhost:4000//reproducible_website/datasets/dataset1.csv">Sampling statistics from some fancy experiment</a> | (filetype:
+.csv)(24 MB)</p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000//reproducible_website/datasets/dataset2.csv">Table of measurements from an old-school study for comparison</a> | (filetype:
+.csv)</p>
+  </li>
+  <li>
+    <p><a href="">Anonymized data from web scraping</a> | (filetype:
+.zip)(2 gb)</p>
+  </li>
+</ul>
 
 <h2 id="figure-generation">Figure Generation</h2>
 
 <article class="post">
 
-<a class="post-thumbnail" style="background-image: url(/reproducible_website/assets/img/fig1.png)" href="/reproducible_website/figures/"> </a>
+<a class="post-thumbnail" style="background-image: url(http://localhost:4000//reproducible_website/assets/img/fig1.png)" href="/reproducible_website/figures/"> </a>
 
 <div class="post-content">
-<b class="post-title"><a href="/reproducible_website/code/fig1.py">Fig. 1: Paleo cardigan kombucha, pickled brunch shabby chic </a></b>
+<b class="post-title"><a href="http://localhost:4000//reproducible_website/software/script1.py">Fig. 1: Paleo cardigan kombucha, pickled brunch shabby chic </a></b>
 <p> Used to generate the figure1</p>
 
 <i>Necessary Data Sets </i><br />
 
-<a style="font-size: 0.9em;" href="/reproducible_website/data/ds1.csv"> - Dataset 1 </a><br />
+
+<a style="font-size: 0.9em;" href="{{ds.link}}"> - Dataset 1 </a><br />
 
 </div>
 </article>
 
 <article class="post">
 
-<a class="post-thumbnail" style="background-image: url(/reproducible_website/assets/img/fig2.png)" href="/reproducible_website/figures/"> </a>
+<a class="post-thumbnail" style="background-image: url(http://localhost:4000//reproducible_website/assets/img/fig2.png)" href="/reproducible_website/figures/"> </a>
 
 <div class="post-content">
-<b class="post-title"><a href="/reproducible_website/code/fig2.py">Fig. 2: Activated charcoal tilde kombucha. </a></b>
+<b class="post-title"><a href="http://localhost:4000//reproducible_website/software/script2.py">Fig. 2: Activated charcoal tilde kombucha. </a></b>
 <p> Used to generate Figure 2, illustrating activated kombucha on tap.</p>
 
 <i>Necessary Data Sets </i><br />
 
-<a style="font-size: 0.9em;" href="/reproducible_website/data/ds2.csv"> - Kombucha tempura desconstructed measures </a><br />
 
-<a style="font-size: 0.9em;" href="/reproducible_website/data/ds2.csv"> - Gravitational wave lo-fi beats to chill and study to </a><br />
+<a style="font-size: 0.9em;" href="{{site.url}}/{{site.baseurl}}/datasets/{{ds.link}}"> - Kombucha tempura desconstructed measures </a><br />
+
+
+<a style="font-size: 0.9em;" href="{{site.url}}/{{site.baseurl}}/datasets/{{ds.link}}"> - Gravitational wave lo-fi beats to chill and study to </a><br />
 
 </div>
 </article>
 
 <article class="post">
 
-<a class="post-thumbnail" style="background-image: url(/reproducible_website/assets/img/fig3.png)" href="/reproducible_website/figures/"> </a>
+<a class="post-thumbnail" style="background-image: url(http://localhost:4000//reproducible_website/assets/img/fig3.png)" href="/reproducible_website/figures/"> </a>
 
 <div class="post-content">
-<b class="post-title"><a href="/reproducible_website/code/fig5.py">Fig. 5: Sustainable pour-over VHS</a></b>
+<b class="post-title"><a href="http://localhost:4000//reproducible_website/software/script1.py">Fig. 5: Sustainable pour-over VHS</a></b>
 <p> Used to generate Figure 5,</p>
 
 <i>Necessary Data Sets </i><br />
 
-<a style="font-size: 0.9em;" href="/reproducible_website/data/ds1.csv"> - Summarized dataset 1 </a><br />
 
-<a style="font-size: 0.9em;" href="/reproducible_website/data/ds2.csv"> - Summarized dataset 2 </a><br />
+<a style="font-size: 0.9em;" href="{{site.url}}/{{site.baseurl}}/datasets/{{ds.link}}"> - Summarized dataset 1 </a><br />
 
-<a style="font-size: 0.9em;" href="/reproducible_website/data/ds3.csv"> - Summarized dataset 3 </a><br />
+
+<a style="font-size: 0.9em;" href="{{ds.link}}"> - Summarized dataset 2 </a><br />
 
 </div>
 </article>
+
 
       <div class="page-footer">
       </div>
