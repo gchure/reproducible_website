@@ -5,3 +5,5 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jemoji"
 end
+
+gem "nokogiri", ">= 1.10.4"
