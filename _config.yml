@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   the title of the paper.  
 
 permalink: ':title/' # This declares the root of your website and shouldn't be touched.
-baseurl:  "" # the subpath of your site, In most cases this can be left blank
+baseurl:  "/" # the subpath of your site, In most cases this can be left blank
 url: "" # Base of your website.In most cases, this will be left blank
 
 # You can include social icons
