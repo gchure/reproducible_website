@@ -21,7 +21,7 @@ sidebar: true
 {% for ds in site.data.datasets %}
 * [{{ds.name}}]({%if ds.storage !=
   'remote'%}{{site.url}}/{{site.baseurl}}/datasets/{{ds.link}}{%
-  else%}{{site.link}}{% endif %}) \| {% if ds.filetype %}(filetype:
+  else%}{{ds.link}}{% endif %}) \| {% if ds.filetype %}(filetype:
   {{ds.filetype}}){%endif%}{% if ds.filesize %}({{ds.filesize}}){%endif%}{%
   if ds.storage == remote %} DOI: {{ds.DOI}}{%endif%}
 {% endfor %}
