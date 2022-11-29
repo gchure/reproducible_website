@@ -33,6 +33,12 @@ this website by running the following in the command line from the template dire
 bundle install
 ```
 
+If you are deploying the code from an M1 mac you may need to run the following:
+
+```
+bundle update ffi sassc
+```
+
 The build and preview the website locally, execute the following:
 ```
 bundle exec jekyll serve --watch
